@@ -4,8 +4,10 @@
   "description": "��#\u0000 \u0000G\u0000I\u0000T\u0000-\u0000A\u0000C\u0000T\u0000I\u0000O\u0000N\u0000S\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "lint": "eslint .",
+  "build": "npm run lint && echo \"Build complete\""
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/utkarsh08012005/GIT-ACTIONS.git"
