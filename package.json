@@ -31,7 +31,6 @@
     "es-object-atoms": "^1.1.1",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^4.0.0",
-    "eslint": "^10.2.1",
     "eslint-scope": "^9.1.2",
     "eslint-visitor-keys": "^5.0.1",
     "espree": "^11.2.0",
@@ -122,9 +121,6 @@
     "wrappy": "^1.0.2",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {
-    "eslint": "^10.2.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
@@ -139,5 +135,8 @@
   "bugs": {
     "url": "https://github.com/utkarsh08012005/GIT-ACTIONS/issues"
   },
-  "homepage": "https://github.com/utkarsh08012005/GIT-ACTIONS#readme"
+  "homepage": "https://github.com/utkarsh08012005/GIT-ACTIONS#readme",
+  "devDependencies": {
+    "eslint": "^10.2.1"
+  }
 }
