@@ -21,7 +21,7 @@ jobs:
         run: npm i
 
       - name: Lint code
-        run: npm run lint
+        run: npx eslint .
       - name: kaya lint chala
         run: echo "challaaa"
   test:
